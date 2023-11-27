@@ -1,16 +1,32 @@
-### Hi there 👋
+# Olá, este é meu github de estudos!
 
-<!--
-**filipedamaceno-study/filipedamaceno-study** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+- ☕: Estudante de Análise e Desenvolvimento de Sistemas no CEUB-DF
+- 💻: Estou buscando estágio enquanto me aprimoro com diversos cursos de programação além da faculdade.
+- 🔗: https://www.linkedin.com/in/filipedamaceno/
 
-Here are some ideas to get you started:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+```python
+class Persona:
+    # Construtor da classe
+    def __init__(self, nome, idade, languages, areas, hobbies):
+        self.nome = nome
+        self.idade = idade
+        self.languages = languages
+        self.areas = areas
+        self.hobbies = hobbies
+        
+    def informacoes(self) -> object:
+        print("Nome:", self.nome)
+        print("Idade:", self.idade)
+        print("Languages:", self.languages)
+        print("Hobbies:", self.hobbies)
+    
+eu = Persona("Filipe Augusto",
+             "29",
+             ["Java","Python"],
+             ["Backend","Análise de dados","Cybersec"],
+             ["Videogame", "Anime", "Mangá", "Tokusatsu", "Música"])
+
+
+```
+  
