@@ -23,8 +23,8 @@ class Persona:
     
 eu = Persona("Filipe Augusto",
              "29",
-             ["Java","Python"],
-             ["Backend","Análise de dados","Cybersec"],
+             ["Java","Python", "Javascript"],
+             ["Backend","Análise de dados",],
              ["Videogame", "Anime", "Mangá", "Tokusatsu", "Música"])
 
 
